@@ -7168,7 +7168,7 @@ PrefabInstance:
       objectReference: {fileID: 1856801542}
     - target: {fileID: 9089845397608264352, guid: 0dad8093fa709d74cbe7e9e61e71e3a6, type: 3}
       propertyPath: seeingCounter
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9089845397608264352, guid: 0dad8093fa709d74cbe7e9e61e71e3a6, type: 3}
       propertyPath: ghostsParticles
