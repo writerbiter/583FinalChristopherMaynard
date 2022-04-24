@@ -173,9 +173,9 @@ MonoBehaviour:
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: -4373
+    x: -4372
     y: -1406
-    width: 5701
+    width: 5700
     height: 2446
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -257,7 +257,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.5378661155700684,"g":0.6988599896430969,"b":0.03658952936530113,"a":0.7568627595901489}'
+      m_SerializableObject: '{"r":0.0,"g":396.1261291503906,"b":367.67510986328127,"a":0.7568627595901489}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -299,7 +299,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5000
+      m_SerializableObject: 4000
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -3466,7 +3466,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":0.5378661155700684,"g":0.6988599896430969,"b":0.03658952936530113,"a":0.7568627595901489}'
+      m_SerializableObject: '{"r":0.0,"g":396.1261291503906,"b":367.67510986328127,"a":0.7568627595901489}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -8122,7 +8122,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"276d9e395ae18fe40a9b4988549f2349","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":10300,"guid":"0000000000000000f000000000000000","type":0}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -9037,7 +9037,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
@@ -9091,7 +9091,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5000
+      m_SerializableObject: 4000
     m_Space: 2147483647
   m_Property:
     name: o
