@@ -113,7 +113,7 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614829}
       id: 0
       isStickyNote: 0
-  - title: New Group Node
+  - title: Particles
     position:
       serializedVersion: 2
       x: -4373
@@ -290,7 +290,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":77.50958251953125,"g":425.05657958984377,"b":21.653791427612306,"a":0.43921568989753725}'
+      m_SerializableObject: '{"r":0.5378661155700684,"g":0.6988599896430969,"b":0.03658952936530113,"a":0.7568627595901489}'
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -3499,7 +3499,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Color, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"r":77.50958251953125,"g":425.05657958984377,"b":21.653791427612306,"a":0.43921568989753725}'
+      m_SerializableObject: '{"r":0.5378661155700684,"g":0.6988599896430969,"b":0.03658952936530113,"a":0.7568627595901489}'
     m_Space: 2147483647
   m_Property:
     name: o
@@ -8429,7 +8429,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614896}
   - {fileID: 8926484042661614900}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614889}
   m_MasterData:
@@ -9211,7 +9211,7 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: -3045, y: 514}
+  m_UIPosition: {x: -3222, y: 374}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
