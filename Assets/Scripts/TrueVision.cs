@@ -11,6 +11,7 @@ public class TrueVision : MonoBehaviour
 
     public float seeingCounter;
     public float counter;
+    bool startCounter = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,35 +21,49 @@ public class TrueVision : MonoBehaviour
 
     // Update is called once per frame
 
+    private void Update()
+    {
+        
+        if (startCounter == true)
+        {
+            counter += Time.deltaTime;
+            if (counter >= seeingCounter)
+            {
+                Destroy(innerRing);
+                Destroy(ghostsParticles);
+                counter = seeingCounter;
+            }
+        }
+    }
+
+
+    /* private void OnTriggerExit(Collider other)
+     {
+         if (other.gameObject.CompareTag("Player"))
+         {
+             NoThereIsnt();
+         }
+
+     }*/
+
+
     void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player") && Image.GetComponent<ColorSwitch>().goldilocks == true)
         {
-            IsSomeoneThere();
+            if (other.gameObject.CompareTag("Player") && Image.GetComponent<ColorSwitch>().goldilocks == true)
+            {
+            runCounter();
         }
-        
-    }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            NoThereIsnt();
         }
-        
-    }
+    void runCounter() { 
+        startCounter = true;
+       
+    }    
+        /* public void NoThereIsnt()
+          {
+              counter = 0;
 
-    public void IsSomeoneThere()
-    {
-        counter +=Time.deltaTime;
-        if (counter >= seeingCounter)
-        {
-            Destroy(innerRing);
-            Destroy(ghostsParticles);
-        }
-    }
-   public void NoThereIsnt()
-    {
-        counter = 0;
-    }
+              }*/
+    
 }
+
