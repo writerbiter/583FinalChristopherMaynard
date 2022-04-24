@@ -17,7 +17,7 @@ public class ColorSwitch : MonoBehaviour
     public float thresholdLow;
     public float thresholdHigh;
     public bool goldilocks;
-
+    public GameObject seer;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +49,7 @@ public class ColorSwitch : MonoBehaviour
         {
             lightChange.color = Color.green;
             goldilocks = true;
+            
         }
 
         if (loudness >= thresholdHigh)

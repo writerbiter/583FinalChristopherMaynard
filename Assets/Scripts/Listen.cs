@@ -23,6 +23,7 @@ public class Listen : MonoBehaviour
         if (targetInrange == true && colorswitch.goldilocks == true)
         {
             agent.SetDestination(ghostGoesHere.position);
+            ;
         }
     }
 

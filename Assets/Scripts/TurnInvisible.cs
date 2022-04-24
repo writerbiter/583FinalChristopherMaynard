@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurnInvisible : MonoBehaviour
 {
-    public Listen ListenScriptHere; 
+   
     void Start()
     {
        GetComponent<BoxCollider>().enabled = true;
