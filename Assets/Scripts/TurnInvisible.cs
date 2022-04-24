@@ -23,9 +23,6 @@ public class TurnInvisible : MonoBehaviour
                 GetComponent<BoxCollider>().enabled = true; 
             }
                 }
-        if (ListenScriptHere.targetInrange == true)
-        {
-
-        }
+       
     }
 }
