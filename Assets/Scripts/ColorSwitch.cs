@@ -16,7 +16,7 @@ public class ColorSwitch : MonoBehaviour
     public float thresholdFloor;
     public float thresholdLow;
     public float thresholdHigh;
-
+    public bool goldilocks;
 
 
     // Start is called before the first frame update
@@ -34,21 +34,27 @@ public class ColorSwitch : MonoBehaviour
         if (loudness < thresholdFloor)
         {
             lightChange.color = Color.white;
+            goldilocks = false;
+
         }
 
         if (loudness >= thresholdFloor && loudness < thresholdLow)
         {
             lightChange.color = Color.yellow;
+            goldilocks = false;
+
         }
 
         if (loudness >= thresholdLow && loudness < thresholdHigh)
         {
             lightChange.color = Color.green;
+            goldilocks = true;
         }
 
         if (loudness >= thresholdHigh)
         {
             lightChange.color = Color.red;
+            goldilocks = false;
         }
 
 
