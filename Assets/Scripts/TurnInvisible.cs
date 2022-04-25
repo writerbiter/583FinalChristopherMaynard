@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TurnInvisible : MonoBehaviour
 {
-    public Listen ListenScriptHere; 
+   
     void Start()
     {
        GetComponent<BoxCollider>().enabled = true;
@@ -23,9 +23,6 @@ public class TurnInvisible : MonoBehaviour
                 GetComponent<BoxCollider>().enabled = true; 
             }
                 }
-        if (ListenScriptHere.targetInrange == true)
-        {
-
-        }
+       
     }
 }

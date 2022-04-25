@@ -8,7 +8,7 @@ public class Listen : MonoBehaviour
     public Transform ghostGoesHere;
     NavMeshAgent agent;
     public GameObject seerGoesHere;
-    
+    public ColorSwitch colorswitch;
     
     public bool targetInrange;
     // Start is called before the first frame update
@@ -20,9 +20,10 @@ public class Listen : MonoBehaviour
 
     private void Update()
     {
-        if (targetInrange == true )
+        if (targetInrange == true && colorswitch.goldilocks == true)
         {
             agent.SetDestination(ghostGoesHere.position);
+            ;
         }
     }
 
